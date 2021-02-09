@@ -41,9 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SFEpisode.cs" />
+    <Compile Include="FinalCheckpointException.cs" />
+    <Compile Include="ISFLogical.cs" />
+    <Compile Include="NextAlreadySetException.cs" />
+    <Compile Include="SFCheckpoint.cs" />
+    <Compile Include="SFChoice.cs" />
+    <Compile Include="SFCondition.cs" />
+    <Compile Include="SFEntry.cs" />
+    <Compile Include="ISFEpisode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SFNodeBase.cs" />
+    <Compile Include="ISFModule.cs" />
+    <Compile Include="SFSearcher.cs" />
+    <Compile Include="VirtualModuleException.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
