@@ -1,6 +1,6 @@
 ﻿namespace StoryFine
 {
-    class ISFEpisode
+    public class ISFEpisode
     {
     }
 }

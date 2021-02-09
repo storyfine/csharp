@@ -2,7 +2,7 @@
 
 namespace StoryFine
 {
-    class SFChoice : ISFModule
+    public class SFChoice : ISFModule
     {
         private string id;
         public string Id { get { return id; } }

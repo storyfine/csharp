@@ -1,6 +1,6 @@
 ﻿namespace StoryFine
 {
-    class SFEntry : ISFModule
+    public class SFEntry : ISFModule
     {
         private string id;
         public string Id { get { return id; } }

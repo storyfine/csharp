@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StoryFine
 {
-    class SFSearcher : ISFLogical
+    public class SFSearcher : ISFLogical
     {
         private string id;
         public string Id { get { return id; } }

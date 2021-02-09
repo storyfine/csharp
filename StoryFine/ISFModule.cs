@@ -1,6 +1,6 @@
 ﻿namespace StoryFine
 {
-    interface ISFModule
+    public interface ISFModule
     {
         string Id { get; }
     }

@@ -1,6 +1,6 @@
 ﻿namespace StoryFine
 {
-    class SFCheckpoint : ISFModule, ISFLogical
+    public class SFCheckpoint : ISFModule, ISFLogical
     {
         private string id;
         public string Id { get{ return id; } }

@@ -2,7 +2,7 @@
 
 namespace StoryFine
 {
-    class FinalCheckpointException : Exception
+    public class FinalCheckpointException : Exception
     {
     }
 }

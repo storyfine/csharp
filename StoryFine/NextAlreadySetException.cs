@@ -2,7 +2,7 @@
 
 namespace StoryFine
 {
-    class NextAlreadySetException : Exception
+    public class NextAlreadySetException : Exception
     {
     }
 }

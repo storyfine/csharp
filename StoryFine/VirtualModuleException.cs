@@ -2,7 +2,7 @@
 
 namespace StoryFine
 {
-    class VirtualModuleException : Exception
+    public class VirtualModuleException : Exception
     {
     }
 }

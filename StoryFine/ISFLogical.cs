@@ -1,6 +1,6 @@
 ﻿namespace StoryFine
 {
-    interface ISFLogical
+    public interface ISFLogical
     {
         string Id { get; }
         bool Value { get; }
